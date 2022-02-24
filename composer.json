@@ -1,0 +1,21 @@
+{
+    "name": "wolgrand/final-crud",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Wolgrand\\FinalCrud\\": "App/"
+        },
+        "files" : [
+            "app/helpers/constants.php",
+            "app/router/router.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Wolgrand",
+            "email": "lopeswolgrand@gmail.com"
+        }
+    ],
+    "require": {}
+    
+}
