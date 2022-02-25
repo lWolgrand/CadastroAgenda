@@ -1,6 +1,12 @@
 <?php
 
+// require_once 'autoload.php';    
 require 'bootstrap.php';
-require '/vendor/autoload.php';
+    use App\classes\Contato;
 
-echo 'Olá, Mundo!';
+    $contato1 = new Contato();
+
+
+
+
+echo 'Index';

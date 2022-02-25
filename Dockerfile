@@ -11,8 +11,8 @@ RUN apt-get update && apt-get install -y \
  
 COPY composer.json ./
 COPY composer.lock ./
-COPY setup.sh ./
+# COPY setup.sh ./
 
 RUN chmod +x setup.sh
 EXPOSE 9000
-ENTRYPOINT ["bash", "setup.sh" ]
+# ENTRYPOINT ["bash", "setup.sh" ]
