@@ -24,24 +24,5 @@ class Contato
         $this->name = $name;
         $this->cellphone = $cellphone;
         $this->email = $email;
-    }
-    /**
-     * @function
-     */
-    function postContato(string $name, int $cellphone, string $email){
-        
-    }
-
-    function getContato(string $name, int $cellphone, string $email){
-
-    }
-
-    function updateContato(){
-
-    }
-
-    function deleteContato(){
-
-    }
-
+    }   
 }
